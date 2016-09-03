@@ -6,13 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Dan Henly
+title: Hello Gensan
 email: mail@danhenly.com
 description: > # this means to ignore newlines until "baseurl:"
-  Dan Henly P. Sales, from Gensan. Full-time programmer, part-time ninja.
+  What's happening in General Santos City
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://danhenly.com" # the base hostname & protocol for your site
-twitter_username: orangerblue
+url: "http://hellogensan.github.io" # the base hostname & protocol for your site
+twitter_username: hellogensan
 github_username:
 
 permalink: blog/:title/
