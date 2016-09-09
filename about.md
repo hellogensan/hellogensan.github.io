@@ -9,5 +9,5 @@ permalink: /about/
     <p>we are Hello Gensan, your guide to General Santos City.</p>
     <p>Message us anytime. :smile:</p>
     <br />
-    <h4>Dan Henly</h4>
+    <h4>Stay Awesome, Gensan!</h4>
 </div>
