@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 date:   2016-08-09 17:54:00 +0800
 title: Hello (Again) Gensan, Hello Jekyll
 slug: helloworld
