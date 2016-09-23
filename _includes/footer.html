@@ -15,11 +15,12 @@
 <script src="/css/moment.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="/css/wow.min.js"></script>
 <script type="text/javascript" src="/slick/slick.min.js"></script>
  <script type="text/javascript">
 var today = moment();
 document.getElementById('time').innerHTML=moment(today).format('dddd MMMM DD, YYYY');
-
+wow.init();
 $(document).ready(function(){
   $('.movies').slick({
     infinite: true,
