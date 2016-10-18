@@ -1,7 +1,6 @@
 ---
 layout: page
 comments: false
-title: Privacy Policy
 ---
 
 <div>
