@@ -1,8 +1,7 @@
 ---
 layout: page
 comments: true
-title: About
-permalink: /about/
+permalink: /privacy-policy/
 ---
 
 <div>
