@@ -3,18 +3,24 @@
 
   {% include head.html %}
 
-  <body>
+  <body id="page-top" class="index">
+
+    {% include navbar.html %}
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+    {% include portfolio.html %}
+
+    {% include about.html %}
+
+    {% include contact.html %}
 
     {% include footer.html %}
-<script id="dsq-count-scr" src="//hello-gensan.disqus.com/count.js" async></script>
+
+    {% include modals.html %}
+
+    {% include javascript.html %}
+
   </body>
 
 </html>
