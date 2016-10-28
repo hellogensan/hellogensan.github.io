@@ -1,80 +1,78 @@
-<footer class="footer">
-  <div class="container">
-    <p class="text-muted">Copyright 2016. Hello Gensan | Schedules are subject to change without prior notice. <a href="/privacy-policy">Privacy Policy</a><p>
-  </div>
+<!-- Footer -->
+<footer class="text-center">
+    <div class="footer-above">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col col-md-4">
+                    <h3>Location</h3>
+                    <p>{{ site.address_street }}
+                        <br>{{ site.address_city }}, {{ site.address_state }} {{ site.address_zip }}</p>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>Around the Web</h3>
+                    <ul class="list-inline">
+                        {% if site.facebook_username %}
+                        <li>
+                            <a href="https://www.facebook.com/{{ site.facebook_username }}" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                        </li>
+                        {% endif %}
+                        {% if site.twitter_username %}
+                        <li>
+                            <a href="https://twitter.com/{{ site.twitter_username }}" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                        </li>
+                        {% endif %}
+                        {% if site.github_username %}
+                        <li>
+                            <a href="https://github.com/{{ site.github_username }}" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                        </li>
+                        {% endif %}
+                        {% if site.instagram_username %}
+                        <li>
+                            <a href="https://www.instagram.com/{{ site.instagram_username }}" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+                        </li>
+                        {% endif %}
+                        {% if site.stackoverflow_url %}
+                        <li>
+							<a href="{{ site.stackoverflow_url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-stack-overflow"></i></a>
+                        </li>
+                        {% endif %}
+                        {% if site.googleplus_username %}
+                        <li>
+							<a href="https://plus.google.com/+{{ site.googleplus_username }}" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                        </li>
+                        {% endif %}
+                        {% if site.skype_username %}
+                        <li>
+							<a href="skype:{{ site.skype_username }}?call" class="btn-social btn-outline"><i class="fa fa-fw fa-skype"></i></a>
+                        </li>
+                        {% endif %}
+                        {% if site.linkedin_url %}
+                        <li>
+							<a href="{{ site.linkedin_url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>About {{ site.title }}</h3>
+                    <p><a href="http://startbootstrap.com">Start Bootstrap</a> is an open source library of Bootstrap themes and templates.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-below">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    Copyright &copy; Your Website {{ site.time | date: "%Y" }}
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-64600756-1', 'auto');
-  ga('send', 'pageview');
-</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<script src="/css/moment.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script src="/css/wow.min.js"></script>
-<script type="text/javascript" src="/slick/slick.min.js"></script>
- <script type="text/javascript">
-var today = moment();
-document.getElementById('time').innerHTML=moment(today).format('dddd MMMM DD, YYYY');
-new WOW().init();
-$(document).ready(function(){
-  $('#movies').slick({
-    infinite: true,
-    slidesToShow: 4,
-  	slidesToScroll: 1,
-  	autoplay: true,
-  	autoplaySpeed: 2000,
-  	dots: true,
-  	arrows: true,
-  	responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true,
-        arrows: true,
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        dots: true,
-        arrows: true,
-        centerMode: true,
-  		centerPadding: '10px',
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: true,
-        arrows: true,
-        centerMode: true,
-  		centerPadding: '10px',
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-  });
-});
-</script>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1516404641986572";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+    <a class="btn btn-primary" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+</div>
