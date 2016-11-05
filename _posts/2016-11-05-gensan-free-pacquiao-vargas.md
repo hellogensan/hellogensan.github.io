@@ -6,7 +6,7 @@ title: GenSan to host free live telecast of Pacquiao-Vargas fight
 slug: gensan-free-pacquiao-vargas
 ---
 
-![Pacquiao Vargas](/img/blog/pacquiao-vargas.jpg)
+![Pacquiao Vargas](/img/blog/pacquiao-vargas.jpg)   
 Report By Philippines News Agency
 
 GENERAL SANTOS CITY — Thousands of boxing fans here will have the chance to witness for free the historic bid on Sunday of the city’s favorite son, Senator Emmanuel Pacquiao, to become the first-ever active senator to win a world boxing championship.
