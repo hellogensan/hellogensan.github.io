@@ -53,13 +53,14 @@ $on-laptop:        1000px;
         "syntax-highlighting"
 ;
 
-.vertical-center {
-  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 100vh; /* These two lines are counted as one :-)       */
 
-  display: flex;
-  align-items: center;
-}
+//.vertical-center {
+//  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+//  min-height: 100vh; /* These two lines are counted as one :-)       */
+//
+//  display: flex;
+// align-items: center;
+//}
 
 .rbtn {
     border-radius: 25px;
