@@ -57,13 +57,13 @@ $on-laptop:        1200px;
 }
 
 .slick-prev:after {
-  content: ">";
-  color: red;
+  content: "<";
+  color: $brand-light;
   font-size: 30px;
 }
 
 .slick-next:before {
-  content: "<";
-  color: red;
+  content: ">";
+  color: $brand-light;
   font-size: 30px;
 }
