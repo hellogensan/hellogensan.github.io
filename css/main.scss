@@ -55,15 +55,3 @@ $on-laptop:        1200px;
 .rbtn {
     border-radius: 25px;
 }
-
-.slick-prev:after {
-  content: "<";
-  color: $brand-light;
-  font-size: 30px;
-}
-
-.slick-next:before {
-  content: ">";
-  color: $brand-light;
-  font-size: 30px;
-}
