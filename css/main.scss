@@ -56,11 +56,4 @@ $on-laptop:        1200px;
     border-radius: 25px;
 }
 
-.slick-prev:before, .slick-next:before { font-family: FontAwesome; font-size: 40px; line-height: 1; color: red; opacity: 0.75; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }   
-
-.slick-prev:before { content: "\f053"; }
-[dir="rtl"] .slick-prev:before { content: "\f054"; }
-
-[dir="rtl"] .slick-next { left: -10px; top: 70px; right: auto; }
-.slick-next:before { content: "\f054"; }
-[dir="rtl"] .slick-next:before { content: "\f053"; }
+a.btn:visited { color: #fff; }
