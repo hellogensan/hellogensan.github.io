@@ -66,9 +66,9 @@ a.btn:visited { color: #fff; }
 	padding-right: 5px;
 }
 
-body::selection {
+::selection {
   background: #03a9f4; /* WebKit/Blink Browsers */
 }
-body::-moz-selection {
+::-moz-selection {
   background: #03a9f4; /* Gecko Browsers */
 }
