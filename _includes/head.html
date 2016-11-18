@@ -25,7 +25,13 @@
   <link rel="stylesheet" href="{{ "/css/animate.css" | prepend: site.baseurl }}">  
   <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-
+  <script type="text/javascript" src="{{ "/css/bioep.min.js | prepend: site.baseurl }}"></script>
+  <script type="text/javascript">
+    bioEp.init({
+        html: '',
+        css: ''
+    });
+  </script>
   <link rel="stylesheet" type="text/css" href="{{ "/slick/slick.css" | prepend: site.baseurl }}">
 <link rel="stylesheet" type="text/css" href="{{ "/slick/slick-theme.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
