@@ -19,11 +19,12 @@
   animation: fadein 0.5s;
 }
 #ouibounce-modal .omodal {
-  height: 200px;
+  height: 300px;
   background-color: #f0f1f2;
   z-index: 1;
   position: absolute;
   margin: auto;
+  padding: 0px;
   top: 0;
   right: 0;
   bottom: 0;
