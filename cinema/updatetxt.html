@@ -1,5 +1,35 @@
-Here are the new movies showing in Gensan:
-   Allied,
-   The Warrior's Gate,
-   Working Beks,
-Reply "movies gensan" to see all movies showing in gensan.
+{
+      attachment: {
+        type: "template",
+        payload: {
+          template_type: "list",
+          elements: [
+                {
+                    "title": "Classic T-Shirt Collection",
+                    "image_url": SERVER_URL + "/img/the-girl-with-all-the-gifts.jpg",
+                    "subtitle": "See all our colors"
+                },
+                {
+                    "title": "Classic White T-Shirt",
+                    "image_url": SERVER_URL + "/img/the-girl-with-all-the-gifts.jpg",
+                    "subtitle": "100% Cotton, 200% Comfortable"                
+                },
+                {
+                    "title": "Classic Blue T-Shirt",
+                    "image_url": SERVER_URL + "/img/the-girl-with-all-the-gifts.jpg",
+                    "subtitle": "100% Cotton, 200% Comfortable"               
+                },
+                {
+                    "title": "Classic Black T-Shirt",
+                    "image_url": SERVER_URL + "/img/the-girl-with-all-the-gifts.jpg",
+                    "subtitle": "100% Cotton, 200% Comfortable"               
+                }
+            ],
+             "buttons": [
+                {
+                    "type": "element_share",                       
+                }
+            ]
+          }
+        }
+      }
