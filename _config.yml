@@ -24,4 +24,3 @@ markdown: kramdown
 gems:
   - jekyll-sitemap
   - jemoji
-  - jekyll-seo-tag
