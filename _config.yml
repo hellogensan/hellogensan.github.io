@@ -8,6 +8,7 @@
 # Site settings
 title: Hello Gensan
 email: mail@hellogensan.com
+author: HelloGensan
 description: > # this means to ignore newlines until "baseurl:"
   What's happening in General Santos City
 baseurl: "" # the subpath of your site, e.g. /blog
